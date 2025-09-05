@@ -3,7 +3,7 @@
 This project is part of our Git & GitHub collaboration exercise.  
 We are learning how to manage source code collaboratively using branches, commits, and pull requests.
 
----
+
 
 ## 👥 Group Members & Roles
 
@@ -11,6 +11,6 @@ We are learning how to manage source code collaboratively using branches, commit
 - **Leena Saddiqa** — Developer (feature contributions)
 - **Iman Arshad** — Developer (feature contributions)
 
----
+
 
  
