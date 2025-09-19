@@ -1,50 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My First Project</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(to right, #6a11cb, #2575fc);
-            color: white;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-        p {
-            font-size: 1.2rem;
-            margin: 5px 0;
-        }
-        button {
-            margin-top: 20px;
-            padding: 10px 20px;
-            font-size: 1rem;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            background-color: white;
-            color: #2575fc;
-            transition: 0.3s;
-        }
-        button:hover {
-            background-color: #f0f0f0;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: background 0.5s ease;
+      }
+      h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 1.2rem;
+        margin: 5px 0;
+      }
+      button,
+      a {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: white;
+        color: #2575fc;
+        transition: 0.3s;
+        text-decoration: none;
+        display: inline-block;
+      }
+      button:hover,
+      a:hover {
+        background-color: #f0f0f0;
+      }
+
+      /* Page 1 Styles */
+      #page1 {
+        background: linear-gradient(to right, #6a11cb, #2575fc);
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Page 2 Styles */
+      #page2 {
+        background: linear-gradient(to right, #ff512f, #dd2476);
+        color: white;
+        width: 100%;
+        height: 100%;
+        display: none; /* hidden by default */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
     </style>
-</head>
-<body>
-    <h1>Hello World 🌍</h1>
-    <p>Welcome to my first GitHub project!</p>
-    <button onclick="alert('You clicked the button! 🎉')">Click Me</button>
-</body>
+  </head>
+  <body>
+    <!-- Page 1 -->
+    <div id="page1">
+      <h1>Hello World 🌍</h1>
+      <p>Welcome to my first GitHub project!</p>
+      <button onclick="goToPage2()">Go to Next Page</button>
+    </div>
+
+    <!-- Page 2 -->
+    <div id="page2">
+      <h1>🎉 You Made It!</h1>
+      <p>This is the second interface inside the same file.</p>
+      <a href="#" onclick="goToPage1()">⬅ Back to Home</a>
+    </div>
+
+    <script>
+      function goToPage2() {
+        document.getElementById("page1").style.display = "none";
+        document.getElementById("page2").style.display = "flex";
+      }
+      function goToPage1() {
+        document.getElementById("page2").style.display = "none";
+        document.getElementById("page1").style.display = "flex";
+      }
+    </script>
+  </body>
 </html>

@@ -18,10 +18,19 @@ We are learning how to manage source code collaboratively using branches, commit
 When I first received this project, it only contained a **basic "Hello World"** message.  
 After that, I(iman) added the following improvements:
 
-- 🌈 Gradient background  
-- 📝 Styled heading and paragraph  
-- 🎉 Interactive button with a click alert  
-- 📄 Proper `README.md` documentation  
+- 🌈 Gradient background
+- 📝 Styled heading and paragraph
+- 🎉 Interactive button with a click alert
+- 📄 Proper `README.md` documentation
+
+When I first received this project, it only contained a **simple "Hello World"** message.  
+After that, we added the following improvements:
+
+- 🌈 Gradient background
+- 📝 Styled heading and paragraph
+- 🎉 Interactive button with a click alert
+- 📄 Proper `README.md` documentation
+- 🔀 Navigation button to switch between two different interfaces (single file support)
 
 ---
 
@@ -30,3 +39,4 @@ After that, I(iman) added the following improvements:
 1. Clone the repository:
    ```bash
    git clone https://github.com/Laiba-J/1Activity.git
+   ```
