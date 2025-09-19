@@ -23,7 +23,7 @@ After that, I(iman) added the following improvements:
 - 🎉 Interactive button with a click alert
 - 📄 Proper `README.md` documentation
 
-When I first received this project, it only contained a **simple "Hello World"** message.  
+When I Leena first received this project, it only contained a **simple "Hello World"** message.  
 After that, we added the following improvements:
 
 - 🌈 Gradient background
