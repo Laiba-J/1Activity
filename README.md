@@ -16,7 +16,7 @@ We are learning how to manage source code collaboratively using branches, commit
 ## 📖 Project Progress
 
 When I first received this project, it only contained a **basic "Hello World"** message.  
-After that, I added the following improvements:
+After that, I(iman) added the following improvements:
 
 - 🌈 Gradient background  
 - 📝 Styled heading and paragraph  
