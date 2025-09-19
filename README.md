@@ -32,8 +32,11 @@ After that, we added the following improvements:
 - 📄 Proper `README.md` documentation
 - 🔀 Navigation button to switch between two different interfaces (single file support)
 
+- 19 sep 2025
+- Uploading with dockerfile 
+- made reporositiry 
+- made docker image 
 ---
-
 ## 🚀 How to Run
 
 1. Clone the repository:
